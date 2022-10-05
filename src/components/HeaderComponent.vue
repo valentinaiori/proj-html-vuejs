@@ -12,11 +12,19 @@
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-linkedin-in"></i>
                 </div>
-
-
             </div>
         </div>
         <div class="cargo-transport">
+            <div>NEXGEN</div>
+            <div class="link-header">
+                <a href=""><strong>HOME</strong></a>
+                <a href=""><strong>ABOUT</strong></a>
+                <a href=""><strong>SERVICES</strong></a>
+                <a href=""><strong>PROCESS</strong></a>
+                <a href=""><strong>TESTIMONIALS</strong></a>
+                <i class="fa-solid fa-user"></i>
+                <button>GET IN TOUCH</button>
+            </div>
         </div>
     </header>
 
@@ -30,34 +38,60 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    header{
-        color: #c0c3d0; 
-    }
+header {
+    color: #c0c3d0;
+}
+
 .bg-greydark {
     display: flex;
     align-items: center;
     background-color: #21333e;
     height: 50px;
-    a{
-        color:#c0c3d0;
+
+    a {
+        color: #c0c3d0;
         text-decoration: none;
     }
-     .fa-twitter, .fa-linkedin-in{
+
+    .fa-twitter,
+    .fa-linkedin-in {
         padding-right: 30px;
     }
-    .fa-facebook,{
-        padding-right: 30px;
-        padding-left: 30px;
+
+    .fa-facebook,
+    {
+    padding-right: 30px;
+    padding-left: 30px;
     }
 
-    .fa-phone, .fa-envelope{
-        padding-right: 5px;
-        padding-left: 30px;
+    .fa-phone,
+    .fa-envelope {
+    padding-right: 5px;
+    padding-left: 30px;
     }
-
 }
+
+
 
 .cargo-transport {
     background-image: url(../assets/img/bg-9.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    padding-top: 30px;
+}
+
+.link-header{
+    a{
+        color: #c0c3d0;
+        text-decoration: none;
+        padding-right: 70px;
+
+    }
+    button{
+        border: 1px solid white;
+        padding: 10px 15px;
+    }
 }
 </style>
