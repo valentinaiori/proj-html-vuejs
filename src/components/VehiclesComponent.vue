@@ -82,6 +82,7 @@ export default {
     }
 .vehicles {
     max-width: 1000px;
+    margin-bottom: 100px;
 
     .vehicles-container {
         display: flex;

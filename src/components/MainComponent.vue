@@ -2,6 +2,7 @@
     <div>
         <CargoTransportComponent />
         <VehiclesComponent />
+        <RoadTransportComponent/>
 
     </div>
 
@@ -10,14 +11,16 @@
 <script>
 import CargoTransportComponent from './CargoTransportComponent.vue';
 import VehiclesComponent from './VehiclesComponent.vue';
+import RoadTransportComponent from './RoadTransportComponent.vue';
 
 
 export default {
     name: 'MainComponent',
     components: {
-        CargoTransportComponent,
-        VehiclesComponent
-    }
+    CargoTransportComponent,
+    VehiclesComponent,
+    RoadTransportComponent
+}
 
 }
 </script>
