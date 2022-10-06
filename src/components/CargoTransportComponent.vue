@@ -29,7 +29,7 @@
 
 <script>
 export default {
-    name: 'CargoTransportComponent.vue'
+    name: 'CargoTransportComponent'
 
 }
 </script>
@@ -46,16 +46,13 @@ export default {
 
 .cargo-container {
     max-width: 1000px;
+    height: 500px;
 
 }
 
 .links-header {
     display: flex;
     color: white;
-
-    .nexgen{
-        padding-right: 90px;
-    }
 
     nav a {
         color: white;
@@ -83,7 +80,7 @@ export default {
 .text-cargo-transport {
     margin-top: 70px;
     width: 400px;
-    margin-left: 50px;
+    margin-left: 0px;
 
     h5 {
         color: #038384;
