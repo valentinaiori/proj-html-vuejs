@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <HeaderComponent/>
+    <MainComponent/>
   </div>
 </template>
 
@@ -8,10 +9,14 @@
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all.js';
 import HeaderComponent from './components/HeaderComponent.vue';
+import MainComponent from './components/MainComponent.vue';
 
 export default {
     name: "App",
-    components: { HeaderComponent }
+    components: { 
+      HeaderComponent,
+      MainComponent
+    }
 }
 </script>
 
