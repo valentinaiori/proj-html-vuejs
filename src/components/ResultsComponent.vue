@@ -47,7 +47,7 @@ export default {
 
     h5 {
         color: #038384;
-        padding-top: 100px;
+        padding-top: 60px;
         padding-bottom: 20px;
         text-align: center;
     }
