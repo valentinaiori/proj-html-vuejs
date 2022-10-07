@@ -15,7 +15,7 @@
 <script>
 import CargoTransportComponent from './CargoTransportComponent.vue';
 import VehiclesComponent from './VehiclesComponent.vue';
-import RoadTransportComponent from './RoadTransportComponent/RoadTransportComponent.vue';
+import RoadTransportComponent from './RoadTransport/RoadTransportComponent.vue';
 import LogisticalProcedureComponent from './LogisticalProcedureComponent.vue';
 import ResultsComponent from './ResultsComponent.vue';
 import FeedbackComponent from './FeedbackComponent.vue';

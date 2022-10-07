@@ -2,7 +2,10 @@
     <div class="cargo">
         <div class="cargo-container">
             <div class="links-header">
-                <div class="nexgen">NEXGEN</div>
+                <div class="nexgen">
+                    <h4 class="background">NEX</h4>
+                    <h4>GEN</h4>
+                </div>
                 <nav>
                     <a href=""><strong>HOME</strong></a>
                     <a href=""><strong>ABOUT</strong></a>
@@ -35,7 +38,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .cargo {
     background-image: url(../assets/img/bg-9.jpg);
     padding-bottom: 100px;
@@ -53,6 +55,19 @@ export default {
 .links-header {
     display: flex;
     color: white;
+
+    .nexgen {
+        display: flex;
+        padding-top: 8px;
+
+
+        .background {
+            background-color: #058283;
+            border-radius: 40px 10px 10px 40px;
+            width: 60px;
+            text-align: end;
+        }
+    }
 
     nav a {
         color: white;

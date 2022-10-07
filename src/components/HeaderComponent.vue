@@ -2,7 +2,7 @@
     <header>
         <div class="bg-greydark">
             <div class="icon-dx">
-                <i class="fa-solid fa-clock"></i> Oper Hours: Mon-Sat 9:00-18:00
+                <i class="fa-solid fa-clock"></i> Open Hours: Mon-Sat 9:00-18:00
             </div>
             <div class="icon-sx">
                 <div>

@@ -56,8 +56,8 @@ export default {
 <style lang="scss" scoped>
 .container {
     width: 1000px;
-    height: 600px;
     display: flex;
+    padding-bottom: 100px;
 }
 
 .send-message {
