@@ -4,6 +4,7 @@
         <VehiclesComponent />
         <RoadTransportComponent/>
         <LogisticalProcedureComponent/>
+        <ResultsComponent/>
 
     </div>
 
@@ -14,6 +15,7 @@ import CargoTransportComponent from './CargoTransportComponent.vue';
 import VehiclesComponent from './VehiclesComponent.vue';
 import RoadTransportComponent from './RoadTransportComponent/RoadTransportComponent.vue';
 import LogisticalProcedureComponent from './LogisticalProcedureComponent.vue';
+import ResultsComponent from './ResultsComponent.vue';
 
 
 export default {
@@ -22,7 +24,8 @@ export default {
     CargoTransportComponent,
     VehiclesComponent,
     RoadTransportComponent,
-    LogisticalProcedureComponent
+    LogisticalProcedureComponent,
+    ResultsComponent
 }
 
 }
