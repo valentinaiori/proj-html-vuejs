@@ -2,8 +2,14 @@
   <div class="container">
     <div>
         <h5>WHAT WE ARE DOING</h5>
-        <h1>Results in Number</h1>
     </div>
+        <div class="title">
+        <h1 class="background">Results</h1>
+        <h1>in Number</h1>
+        
+        </div>
+        
+    
     <div class="data">
         <div>
             <p class="number"><strong>128</strong></p>
@@ -50,6 +56,18 @@ export default {
         h1{
             color: white;
             text-align: center;
+        }
+
+        .title{
+            display: flex;
+            width: 295px;
+            
+            .background{
+                background-color: #038384;
+                border: 1px solid #038384;
+                width: 125px;
+                height: 40px;
+            }
         }
     }
 
