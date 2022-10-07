@@ -3,13 +3,17 @@
         <div class="vehicles-container">
             <div class="text-vehicles">
                 <h5>WHO WE ARE</h5>
-                <h1><i class="fa-regular fa-gem"></i>Excellence in Transport</h1>
+                <div class="title">
+                    <h1 class="background"><i class="fa-regular fa-gem"></i>Excellence</h1>
+                    <h1>in Transport</h1>
+                </div>
+
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Aspernatur, pariatur non. </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas perspiciatis veniam. 
-                    Autem architecto nam voluptate labore optio tempore numquam? 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas perspiciatis veniam.
+                    Autem architecto nam voluptate labore optio tempore numquam?
                     Eveniet voluptates quos eligendi fugit voluptatibus enim tempore culpa at! </p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Aspernatur, pariatur non. </p>
                 <p>Sed maurius nulla, tempor eu est vel, dapibus hendrerit maurius curabitur dictum phaetra.</p>
 
@@ -27,40 +31,40 @@
                 <div>
                     <div class="card">
                         <img src="../assets/img/truck-1.png" alt="Light">
-                    <div class="text">
-                        <p class="type"><strong>Light</strong></p>
-                        <p class="max-weight">Max Weigth 1200 Kg</p>
+                        <div class="text">
+                            <p class="type"><strong>Light</strong></p>
+                            <p class="max-weight">Max Weigth 1200 Kg</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bar">
-                    <hr>
-                </div>
-                <div class="card">
-                    <img src="../assets/img/truck-1.png" alt="Medium">
-                    <div>
-                        <p class="type"><strong>Medium</strong></p>
-                        <p class="max-weight">Max Weigth 6000 Kg</p>
+                    <div class="bar">
+                        <hr>
                     </div>
-                </div>
-                <div class="bar">
-                    <hr>
-                </div>
-                <div class="card">
-                    <img src="../assets/img/truck-1.png" alt="Heavy">
-                    <div>
-                        <p class="type"><strong>Heavy</strong></p>
-                        <p class="max-weight">Max Weigth 24000 Kg</p>
+                    <div class="card">
+                        <img src="../assets/img/truck-1.png" alt="Medium">
+                        <div>
+                            <p class="type"><strong>Medium</strong></p>
+                            <p class="max-weight">Max Weigth 6000 Kg</p>
+                        </div>
                     </div>
-                </div>
-                <div class="certifications">
+                    <div class="bar">
+                        <hr>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/img/truck-1.png" alt="Heavy">
+                        <div>
+                            <p class="type"><strong>Heavy</strong></p>
+                            <p class="max-weight">Max Weigth 24000 Kg</p>
+                        </div>
+                    </div>
+                    <div class="certifications">
 
-                    <h3>Certifications</h3>
-                    <div class="img-certification">
-                    <img src="../assets/img/certificate.png" alt="Certificate">
-                    <img src="../assets/img/certificate.png" alt="Certificate">
+                        <h3>Certifications</h3>
+                        <div class="img-certification">
+                            <img src="../assets/img/certificate.png" alt="Certificate">
+                            <img src="../assets/img/certificate.png" alt="Certificate">
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
@@ -74,15 +78,32 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    h5{
-        color: #038384;
-    }
+h5 {
+    color: #038384;
+}
+
 .vehicles {
     max-width: 1000px;
     margin-bottom: 100px;
 
     .vehicles-container {
         display: flex;
+    }
+
+    .title {
+        display: flex;
+        margin-left: 0;
+        width: 380px;
+
+        .background {
+            background-color: #cce3de;
+            border: 1px solid #cce3de;
+            color: #038384;
+            width: 204px;
+            height: 39px;
+            padding-left: 5px;
+            padding-right: 3px;
+        }
     }
 
 }
@@ -94,86 +115,87 @@ export default {
         font-size: 2.0rem;
     }
 
-    h5{
+    h5 {
         margin-top: 50px;
         margin-bottom: 20px;
     }
 
-    p, ul{
+    p,
+    ul {
         padding-top: 20px;
     }
 
-    ul{
+    ul {
         padding-left: 20px;
     }
 
-    .fa-gem{
+    .fa-gem {
         padding-right: 10px;
     }
 
 }
 
-.types-vehicles{
+.types-vehicles {
     width: 370px;
 
-    h3{
+    h3 {
         margin-top: 60px;
         margin-left: 75px;
     }
-    img{
+
+    img {
         width: 60px;
         height: 40px;
         text-align: center;
     }
 
-    p{
+    p {
         font-size: 0.7rem;
     }
 
-    .text{
+    .text {
         padding-top: 12px;
     }
 
 }
 
-.bar{
+.bar {
     padding-right: 3px;
     padding-left: 59px;
     width: 249px;
     padding-top: 10px;
-    }
+}
 
-.card{
+.card {
     display: flex;
     margin-top: 20px;
     width: 200px;
     margin-left: 57px;
 
-    .type{
+    .type {
         font-size: 0.9rem;
         padding-bottom: 2px;
     }
 
-    .max-weight{
+    .max-weight {
         color: #bcbdbd;
     }
 }
 
-.certifications{
-    h3{
+.certifications {
+    h3 {
         margin-bottom: 10px;
         margin-top: 35px;
         font-size: 1.0rem;
     }
 
-    img{
-     width: 90px;
-     height: 78px;
+    img {
+        width: 90px;
+        height: 78px;
     }
-    
-    .img-certification{
+
+    .img-certification {
         margin-left: 68px;
     }
 }
-
 </style>

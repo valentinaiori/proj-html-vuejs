@@ -2,7 +2,11 @@
     <div class="container">
         <div class="text">
             <h5 class="subtitle">HOW IT WORKS IN PRACTISE</h5>
-            <h1><strong>Logistical Procedure</strong></h1>
+            <div class="title">
+                <h1 class="background"><strong>Logistical</strong></h1>
+                <h1><strong>Procedure</strong></h1> 
+            </div>
+            
             <p class="paragraph">We work with innovative methodologies to ensure that the entire delivery procedd is
                 done from start to finish as planned.</p>
         </div>
@@ -57,6 +61,20 @@ export default {
         color: #038384;
         padding-top: 100px;
         padding-bottom: 20px;
+    }
+
+    .title{
+        display: flex;
+        width: 310px;
+
+        .background{
+            background-color: #cce3de;
+            border: 1px solid #cce3de;
+            color: #038384;
+            width: 175px;
+            height: 40px;
+            margin-right: 5px;
+        }
     }
 
     .paragraph {
