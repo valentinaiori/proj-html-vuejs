@@ -6,6 +6,7 @@
         <LogisticalProcedureComponent/>
         <ResultsComponent/>
         <FeedbackComponent/>
+        <SendMessageComponent/>
 
     </div>
 
@@ -18,6 +19,7 @@ import RoadTransportComponent from './RoadTransportComponent/RoadTransportCompon
 import LogisticalProcedureComponent from './LogisticalProcedureComponent.vue';
 import ResultsComponent from './ResultsComponent.vue';
 import FeedbackComponent from './FeedbackComponent.vue';
+import SendMessageComponent from './SendMessageComponent.vue';
 
 
 export default {
@@ -28,7 +30,8 @@ export default {
     RoadTransportComponent,
     LogisticalProcedureComponent,
     ResultsComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    SendMessageComponent
 }
 
 }
