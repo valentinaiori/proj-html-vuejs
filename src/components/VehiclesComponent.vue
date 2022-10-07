@@ -59,12 +59,9 @@
                     <img src="../assets/img/certificate.png" alt="Certificate">
                     <img src="../assets/img/certificate.png" alt="Certificate">
                     </div>
-                    
                 </div>
-            
             </div>
             </div>
-            
         </div>
     </div>
 </template>

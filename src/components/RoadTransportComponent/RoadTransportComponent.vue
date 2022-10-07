@@ -6,26 +6,28 @@
             <div class="text-button">
                 <p>With all of this expertise and capability comes an unrivalled commintment to customer service. We
                     will work hard to understand your needs in order to develop a productive, long-term partnership.</p>
-
                 <button class="btn-see-all">SEE ALL</button>
-
             </div>
-
         </div>
-
+        <CardRoadTransportComponent/>
     </div>
 </template>
 
 <script>
+import CardRoadTransportComponent from './CardRoadTransportComponent.vue'
+
 export default {
-    name: 'RoadTransportComponent'
+    name: 'RoadTransportComponent',
+    components:{
+        CardRoadTransportComponent,
+    }
 
 }
 </script>
 
 <style lang="scss" scoped>
 .road-transport {
-    height: 600px;
+    height: 400px;
     background-color: #191c1e;
 }
 

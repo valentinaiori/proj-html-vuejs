@@ -3,6 +3,7 @@
         <CargoTransportComponent />
         <VehiclesComponent />
         <RoadTransportComponent/>
+        <LogisticalProcedureComponent/>
 
     </div>
 
@@ -11,7 +12,8 @@
 <script>
 import CargoTransportComponent from './CargoTransportComponent.vue';
 import VehiclesComponent from './VehiclesComponent.vue';
-import RoadTransportComponent from './RoadTransportComponent.vue';
+import RoadTransportComponent from './RoadTransportComponent/RoadTransportComponent.vue';
+import LogisticalProcedureComponent from './LogisticalProcedureComponent.vue';
 
 
 export default {
@@ -19,7 +21,8 @@ export default {
     components: {
     CargoTransportComponent,
     VehiclesComponent,
-    RoadTransportComponent
+    RoadTransportComponent,
+    LogisticalProcedureComponent
 }
 
 }
