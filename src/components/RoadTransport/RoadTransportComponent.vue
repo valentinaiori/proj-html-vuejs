@@ -13,7 +13,12 @@
                 <button class="btn-see-all">SEE ALL</button>
             </div>
         </div>
-        <CardRoadTransportComponent />
+        <div>
+            <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title"
+        :iconCard="card.icon" 
+        :titleCard="card.title" 
+        :textCard="card.text"/>
+        </div>
     </div>
 </template>
 
@@ -24,8 +29,30 @@ export default {
     name: 'RoadTransportComponent',
     components: {
         CardRoadTransportComponent,
-    }
+    },
 
+    methods:{
+        getCardData(){
+            const cardData = [
+                {
+                    'icon': 'fa-solid fa-temperature-low',
+                    'title' : 'Technology',
+                    'text': 'ciaoo'
+                },
+                {
+                    'icon': 'fa-solid fa-temperature-low',
+                    'title' : 'Reefer Cargo',
+                    'text': 'ciaoooooo'
+                },
+                {
+                    'icon': 'fa-solid fa-temperature-low',
+                    'title' : 'Dry Cargo',
+                    'text': 'ciaoooooooooo'
+                }
+            ]
+            return cardData;
+        }
+    }
 }
 </script>
 
