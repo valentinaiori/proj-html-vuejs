@@ -6,18 +6,16 @@
                 <h1>Trusted</h1>
                 <h1 class="background">Feedback</h1>
             </div>
-            <p> We work intensively in search of ideals that can add up in the lives of our customers. 
+            <p> We work intensively in search of ideals that can add up in the lives of our customers.
                 This is what moves us and we are grateful for the recognition.
             </p>
 
             <div class="card-container">
-            <CardFeedbackComponent v-for="card in getCardData()" :key="card.text1"
-            :imgCard="card.img"
-            :text1Card="card.text1"
-            :text2Card="card.text2"/>
+                <CardFeedbackComponent v-for="card in getCardData()" :key="card.text1" :imgCard="card.img"
+                    :text1Card="card.text1" :text2Card="card.text2" />
+            </div>
         </div>
-        </div>
-       
+
     </div>
 </template>
 
@@ -25,7 +23,7 @@
 import CardFeedbackComponent from './CardFeedbackComponent.vue';
 export default {
     name: 'FeedbackComponent',
-    components:{
+    components: {
         CardFeedbackComponent,
     },
 
@@ -57,13 +55,12 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    height: 600px;
+    padding-bottom: 100px;
     background-color: #121117;
     color: white;
 
     .feedback {
         width: 1000px;
-        
 
     }
 
@@ -89,7 +86,7 @@ export default {
         }
     }
 
-    p{
+    p {
         font-size: 0.8rem;
         color: #69696d;
         padding-top: 20px;
@@ -99,7 +96,7 @@ export default {
     }
 }
 
-.card-container{
+.card-container {
     display: flex;
 }
 </style>
