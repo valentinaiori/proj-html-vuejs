@@ -14,8 +14,10 @@
             </div>
 
             <div class="card-container">
-                <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title" :iconCard="card.icon"
-                    :titleCard="card.title" :textCard="card.text" />
+                <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title" 
+                    :iconCard="card.icon"
+                    :titleCard="card.title" 
+                    :textCard="card.text" />
             </div>
         </div>
 
@@ -35,7 +37,7 @@ export default {
         getCardData() {
             const cardData = [
                 {
-                    'icon': 'fa-solid fa-temperature-low',
+                    'icon': 'fa-solid fa-swatchbook',
                     'title': 'Technology',
                     'text': 'We are continually focused on developing technology solutions adapted to our client\'s needs.'
                 },
@@ -45,7 +47,7 @@ export default {
                     'text': 'Regular and frequent monitoring from the receipt of the loaded container to final destination.'
                 },
                 {
-                    'icon': 'fa-solid fa-temperature-low',
+                    'icon': 'fa-solid fa-cubes',
                     'title': 'Dry Cargo',
                     'text': 'We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care.'
                 }
@@ -111,11 +113,9 @@ export default {
         display: flex;
 
     }
-
 }
 
 .card-container {
     display: flex;
-    width: calc (100% / 3)
 }
 </style>
