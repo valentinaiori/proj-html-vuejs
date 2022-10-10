@@ -12,13 +12,15 @@
                     will work hard to understand your needs in order to develop a productive, long-term partnership.</p>
                 <button class="btn-see-all">SEE ALL</button>
             </div>
+
+            <div class="card-container">
+                <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title" 
+                    :iconCard="card.icon"
+                    :titleCard="card.title" 
+                    :textCard="card.text" />
+            </div>
         </div>
-        <div>
-            <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title"
-        :iconCard="card.icon" 
-        :titleCard="card.title" 
-        :textCard="card.text"/>
-        </div>
+
     </div>
 </template>
 
@@ -31,23 +33,23 @@ export default {
         CardRoadTransportComponent,
     },
 
-    methods:{
-        getCardData(){
+    methods: {
+        getCardData() {
             const cardData = [
                 {
                     'icon': 'fa-solid fa-temperature-low',
-                    'title' : 'Technology',
-                    'text': 'ciaoo'
+                    'title': 'Technology',
+                    'text': 'We are continually focused on developing technology solutions adapted to our client\'s needs.'
                 },
                 {
                     'icon': 'fa-solid fa-temperature-low',
-                    'title' : 'Reefer Cargo',
-                    'text': 'ciaoooooo'
+                    'title': 'Reefer Cargo',
+                    'text': 'Regular and frequent monitoring from the receipt of the loaded container to final destination.'
                 },
                 {
                     'icon': 'fa-solid fa-temperature-low',
-                    'title' : 'Dry Cargo',
-                    'text': 'ciaoooooooooo'
+                    'title': 'Dry Cargo',
+                    'text': 'We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care.'
                 }
             ]
             return cardData;
@@ -58,7 +60,7 @@ export default {
 
 <style lang="scss" scoped>
 .road-transport {
-    height: 400px;
+    height: 600px;
     background-color: #191c1e;
 }
 
@@ -112,5 +114,10 @@ export default {
 
     }
 
+}
+
+.card-container {
+    display: flex;
+    width: calc (100% / 3)
 }
 </style>
