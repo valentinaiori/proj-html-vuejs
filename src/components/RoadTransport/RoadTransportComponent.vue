@@ -14,10 +14,8 @@
             </div>
 
             <div class="card-container">
-                <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title" 
-                    :iconCard="card.icon"
-                    :titleCard="card.title" 
-                    :textCard="card.text" />
+                <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title" :iconCard="card.icon"
+                    :titleCard="card.title" :textCard="card.text" />
             </div>
         </div>
 

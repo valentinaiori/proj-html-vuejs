@@ -11,8 +11,10 @@
             </p>
 
             <div class="card-container">
-                <CardFeedbackComponent v-for="card in getCardData()" :key="card.text1" :imgCard="card.img"
-                    :text1Card="card.text1" :text2Card="card.text2" />
+                <CardFeedbackComponent v-for="card in getCardData()" :key="card.text1" 
+                    :imgCard="card.img"
+                    :text1Card="card.text1" 
+                    :text2Card="card.text2" />
             </div>
         </div>
 
@@ -31,7 +33,7 @@ export default {
         getCardData() {
             const cardData = [
                 {
-                    'img': 'logo-1.png',
+                    'img': "logo-1.png",
                     'text1': 'Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsam orci rhoncus at pellentesque.',
                     'text2': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
                 },
@@ -99,4 +101,5 @@ export default {
 .card-container {
     display: flex;
 }
+
 </style>

@@ -13,8 +13,8 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas perspiciatis veniam.
                     Autem architecto nam voluptate labore optio tempore numquam?
                     Eveniet voluptates quos eligendi fugit voluptatibus enim tempore culpa at! </p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Aspernatur, pariatur non. </p>
+                <p class="paragraph-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas perspiciatis veniam.
+                    Autem architecto nam voluptate labore optio tempore numquam? </p>
                 <p>Sed maurius nulla, tempor eu est vel, dapibus hendrerit maurius curabitur dictum phaetra.</p>
 
                 <ul>
@@ -137,6 +137,10 @@ h5 {
 
     .fa-gem {
         padding-right: 10px;
+    }
+
+    .paragraph-line{
+
     }
 
 }

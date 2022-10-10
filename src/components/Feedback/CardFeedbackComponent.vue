@@ -45,5 +45,12 @@ export default {
         padding-right: 20px;
         padding-bottom: 10px;
     }
+
+    img{
+        width: 126px;
+    padding-bottom: 10px;
+    padding-left: 48px;
+    fill: white;
+    }
 }
 </style>
