@@ -58,7 +58,7 @@ export default {
     display: flex;
     padding-bottom: 10px;
     padding-top: 20px;
-    margin-left: 180px;
+    margin-left: 0;
 
   }
 </style>

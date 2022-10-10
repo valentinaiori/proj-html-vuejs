@@ -18,7 +18,7 @@ import VehiclesComponent from './VehiclesComponent.vue';
 import RoadTransportComponent from './RoadTransport/RoadTransportComponent.vue';
 import LogisticalProcedureComponent from './LogisticalProcedureComponent.vue';
 import ResultsComponent from './ResultsComponent.vue';
-import FeedbackComponent from './FeedbackComponent.vue';
+import FeedbackComponent from './Feedback/FeedbackComponent.vue';
 import SendMessageComponent from './SendMessageComponent.vue';
 
 
