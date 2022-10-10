@@ -17,7 +17,7 @@
                     <input type="text" value="More Info">
                 </div>
 
-                <textarea name="Message"></textarea>
+                <textarea name="Message" value="Message"></textarea>
 
                 <div>
                     <button class="send">SEND</button>
@@ -104,13 +104,13 @@ export default {
     }
 
     textarea {
-            height: 140px;
-            width: 450px;
-            margin-top: 20px;
-            background-color: #ececec;
-            border: 1px solid #ececec;
-            border-radius: 4px;
-        }
+        height: 140px;
+        width: 450px;
+        margin-top: 20px;
+        background-color: #ececec;
+        border: 1px solid #ececec;
+        border-radius: 4px;
+    }
 
     .send {
         border: 1px solid #038384;
@@ -131,6 +131,8 @@ export default {
         margin-bottom: 20px;
         width: 300px;
         margin-left: 0;
+        color: #6f7875;
+        font-size: 0.9rem;
     }
 
     .fa-phone,
@@ -153,6 +155,13 @@ export default {
         .text {
             padding-left: 10px;
             margin-top: 5px;
+            color: #038384;
+            font-size: 0.9rem;
+
+            a {
+                color: #038384;
+                text-decoration: none;
+            }
         }
     }
 

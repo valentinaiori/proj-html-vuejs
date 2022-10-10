@@ -145,16 +145,22 @@ export default {
         width: 220px;
         padding-bottom: 40px;
         padding-top: 30px;
+        color: #c0c3d0;
     }
 
     .fa-phone,
     .fa-envelope,
     .fa-location-dot {
-        color: grey;
+        color: #c0c3d0;
     }
 
     .info {
         padding-bottom: 30px;
+
+        a {
+            color: #c0c3d0;
+            text-decoration: none;
+        }
 
         .text {
             padding-left: 30px;
@@ -189,25 +195,25 @@ export default {
     border-radius: 10px;
     margin-right: 20px;
 
-    .content{
+    .content {
         padding-left: 30px;
         padding-top: 30px;
 
-        h3{
+        h3 {
             padding-bottom: 20px;
         }
     }
 
-    .link{
+    .link {
         padding-bottom: 10px;
-        color: #69696d;
+        color: #c0c3d0;
     }
 
     a {
         color: white;
         font-size: 1rem;
         text-decoration-line: none;
-        color: #69696d;
+        color: #c0c3d0;
     }
 
     .fa-angle-right {
@@ -216,7 +222,7 @@ export default {
     }
 }
 
-.second-part{
+.second-part {
     height: 10px;
     background-color: black;
 }

@@ -110,9 +110,11 @@ h5 {
 
 .text-vehicles {
     font-size: 0.7rem;
+    color: #6f7875;
 
     h1 {
         font-size: 2.0rem;
+        color: black;
     }
 
     h5 {
@@ -127,6 +129,10 @@ h5 {
 
     ul {
         padding-left: 20px;
+    }
+
+    li {
+        padding-bottom: 15px;
     }
 
     .fa-gem {
@@ -178,7 +184,7 @@ h5 {
     }
 
     .max-weight {
-        color: #bcbdbd;
+        color: #6f7875;
     }
 }
 

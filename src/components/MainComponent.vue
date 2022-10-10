@@ -2,12 +2,12 @@
     <div>
         <CargoTransportComponent />
         <VehiclesComponent />
-        <RoadTransportComponent/>
-        <LogisticalProcedureComponent/>
-        <ResultsComponent/>
-        <FeedbackComponent/>
-        <SendMessageComponent/>
-        <LinksComponent/>
+        <RoadTransportComponent />
+        <LogisticalProcedureComponent />
+        <ResultsComponent />
+        <FeedbackComponent />
+        <SendMessageComponent />
+        <LinksComponent />
 
     </div>
 
@@ -27,15 +27,15 @@ import LinksComponent from './LinksComponent.vue';
 export default {
     name: 'MainComponent',
     components: {
-    CargoTransportComponent,
-    VehiclesComponent,
-    RoadTransportComponent,
-    LogisticalProcedureComponent,
-    ResultsComponent,
-    FeedbackComponent,
-    SendMessageComponent,
-    LinksComponent
-}
+        CargoTransportComponent,
+        VehiclesComponent,
+        RoadTransportComponent,
+        LogisticalProcedureComponent,
+        ResultsComponent,
+        FeedbackComponent,
+        SendMessageComponent,
+        LinksComponent
+    }
 
 }
 </script>

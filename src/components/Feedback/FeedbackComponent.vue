@@ -88,7 +88,7 @@ export default {
 
     p {
         font-size: 0.8rem;
-        color: #69696d;
+        color: #c0c3d0;
         padding-top: 20px;
         width: 573px;
         text-align: center;

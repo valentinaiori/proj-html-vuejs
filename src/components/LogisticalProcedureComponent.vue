@@ -4,9 +4,9 @@
             <h5 class="subtitle">HOW IT WORKS IN PRACTISE</h5>
             <div class="title">
                 <h1 class="background"><strong>Logistical</strong></h1>
-                <h1><strong>Procedure</strong></h1> 
+                <h1><strong>Procedure</strong></h1>
             </div>
-            
+
             <p class="paragraph">We work with innovative methodologies to ensure that the entire delivery procedd is
                 done from start to finish as planned.</p>
         </div>
@@ -63,11 +63,11 @@ export default {
         padding-bottom: 20px;
     }
 
-    .title{
+    .title {
         display: flex;
         width: 310px;
 
-        .background{
+        .background {
             background-color: #cce3de;
             border: 1px solid #cce3de;
             color: #038384;
@@ -91,18 +91,18 @@ export default {
     padding-top: 70px;
     margin-right: 150px;
     margin-left: 150px;
-    
+
 
     .steps {
         margin-right: 10px;
         margin-left: 10px;
 
-        .procedure-2{
+        .procedure-2 {
             margin-right: 15px;
             margin-left: 15px;
         }
 
-        .procedure-3{
+        .procedure-3 {
             margin-left: 30px;
             margin-right: 30px;
         }
@@ -119,13 +119,13 @@ export default {
         margin-bottom: 20px;
     }
 
-    h3{
+    h3 {
         margin-bottom: 20px;
         margin-right: 10px;
         margin-left: 10px;
     }
 
-    p{
+    p {
         color: #69696d;
         font-size: 0.8rem;
     }

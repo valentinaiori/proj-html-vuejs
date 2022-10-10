@@ -34,18 +34,16 @@ export default {
         width: 200px;
         font-size: 0.8rem;
         padding-bottom: 10px;
-        color: #69696d;
+        color: #c0c3d0;
     }
 
     .fa-quote-right {
-    color: grey;
-    font-size: 1.3rem;
-    display: flex;
-    margin-right: 0;
-    padding-right: 20px;
-    padding-bottom: 10px;
+        color: grey;
+        font-size: 1.3rem;
+        display: flex;
+        margin-right: 0;
+        padding-right: 20px;
+        padding-bottom: 10px;
     }
 }
-
-
 </style>
