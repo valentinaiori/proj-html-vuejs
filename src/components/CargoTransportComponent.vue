@@ -59,8 +59,6 @@ export default {
     .nexgen {
         display: flex;
         padding-top: 8px;
-
-
         .background {
             border-radius: 40px 10px 10px 40px;
             width: 60px;

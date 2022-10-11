@@ -23,6 +23,7 @@
 
 <script>
 import CardFeedbackComponent from './CardFeedbackComponent.vue';
+import feedbackData from '@/data/feedback.json';
 export default {
     name: 'FeedbackComponent',
     components: {
@@ -31,24 +32,7 @@ export default {
 
     methods: {
         getCardData() {
-            const cardData = [
-                {
-                    'img': "logo-1.png",
-                    'text1': 'Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsam orci rhoncus at pellentesque.',
-                    'text2': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                },
-                {
-                    'img': 'logo-2.png',
-                    'text1': 'Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsam orci rhoncus at pellentesque.',
-                    'text2': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                },
-                {
-                    'img': 'logo-3.png',
-                    'text1': 'Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsam orci rhoncus at pellentesque.',
-                    'text2': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                }
-            ]
-            return cardData;
+            return feedbackData;
         }
     }
 

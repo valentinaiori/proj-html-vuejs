@@ -14,8 +14,10 @@
             </div>
 
             <div class="card-container">
-                <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title" :iconCard="card.icon"
-                    :titleCard="card.title" :textCard="card.text" />
+                <CardRoadTransportComponent v-for="card in getCardData()" :key="card.title" 
+                    :iconCard="card.icon"
+                    :titleCard="card.title" 
+                    :textCard="card.text" />
             </div>
         </div>
 
@@ -23,7 +25,8 @@
 </template>
 
 <script>
-import CardRoadTransportComponent from './CardRoadTransportComponent.vue'
+import CardRoadTransportComponent from './CardRoadTransportComponent.vue';
+import roadData from '@/data/roadTransport.json'
 
 export default {
     name: 'RoadTransportComponent',
@@ -33,24 +36,7 @@ export default {
 
     methods: {
         getCardData() {
-            const cardData = [
-                {
-                    'icon': 'fa-solid fa-swatchbook',
-                    'title': 'Technology',
-                    'text': 'We are continually focused on developing technology solutions adapted to our client\'s needs.'
-                },
-                {
-                    'icon': 'fa-solid fa-temperature-low',
-                    'title': 'Reefer Cargo',
-                    'text': 'Regular and frequent monitoring from the receipt of the loaded container to final destination.'
-                },
-                {
-                    'icon': 'fa-solid fa-cubes',
-                    'title': 'Dry Cargo',
-                    'text': 'We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care.'
-                }
-            ]
-            return cardData;
+            return roadData;
         }
     }
 }
