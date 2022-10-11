@@ -46,11 +46,11 @@ export default {
         padding-bottom: 10px;
     }
 
-    img{
-        width: 126px;
-    padding-bottom: 10px;
-    padding-left: 48px;
-    fill: white;
+    img {
+        width: 137px;
+        padding-bottom: 10px;
+        padding-left: 48px;
+        filter: invert(1);
     }
 }
 </style>

@@ -2,7 +2,10 @@
     <div class="container">
         <div class="first-part">
             <div class="information">
-                <h1>NEXGEN</h1>
+                <div class="nexgen">
+                    <h1 class="background">NEX</h1>
+                    <h1>GEN</h1>
+                </div>
                 <p class="subtitle">A Functional HTML Template for Corporate & Business.</p>
                 <div class="info">
                     <i class="fa-solid fa-phone"></i>
@@ -130,11 +133,33 @@ export default {
     background-color: #111117;
     padding-top: 100px;
     padding-bottom: 150px;
+
+    h1 {
+        font-size: 1.5rem;
+    }
 }
 
 .first-part {
     width: 1000px;
     display: flex;
+
+    .nexgen {
+        display: flex;
+        padding-top: 8px;
+
+        .background {
+            border-radius: 40px 10px 10px 40px;
+            width: 60px;
+            text-align: end;
+            color: #058283;
+        }
+
+        h1 {
+            color: #bdc0cc;
+            font-size: 1.3rem;
+            margin: 0;
+        }
+    }
 
     .information {
         margin-right: 50px;

@@ -100,6 +100,8 @@ export default {
             margin-top: 10px;
             margin-right: 10px;
             border-radius: 4px;
+            color: #69696d;
+            padding-left: 10px;
         }
     }
 

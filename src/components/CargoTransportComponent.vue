@@ -62,10 +62,14 @@ export default {
 
 
         .background {
-            background-color: #058283;
             border-radius: 40px 10px 10px 40px;
             width: 60px;
             text-align: end;
+            color: #058283;
+        }
+
+        h4{
+            color: #bdc0cc;
         }
     }
 

@@ -150,13 +150,14 @@ h5 {
 
     h3 {
         margin-top: 60px;
-        margin-left: 75px;
+        margin-left: 63px;
     }
 
     img {
         width: 60px;
         height: 40px;
         text-align: center;
+        background-color: #daeced;
     }
 
     p {
@@ -202,10 +203,11 @@ h5 {
     img {
         width: 90px;
         height: 78px;
+        background-color: white;
     }
 
     .img-certification {
-        margin-left: 68px;
+        margin-left: 58px;
     }
 }
 </style>
